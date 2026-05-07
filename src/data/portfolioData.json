@@ -1,0 +1,84 @@
+{
+  "hero": {
+    "title": "Medical VSL",
+    "description": "High-converting Direct Response trial edit featuring ElevenLabs AI voiceover and hook-body-CTA structure.",
+    "videoUrl": "https://www.youtube.com/embed/iZ9ZhQL9w0E",
+    "thumbnailUrl": "/assets/hero-thumb.png"
+  },
+  "categories": [
+    {
+      "id": "high-conversion",
+      "title": "High-Conversion Brand Ads",
+      "videos": [
+        {
+          "id": "ulora-01",
+          "brand": "Ulora Health & Wellness",
+          "youtubeId": "-Vh48itO0Bs",
+          "description": "Direct response utilizing fast-paced B-roll and dynamic zoom-ins.",
+          "thumbnailUrl": "/assets/ulora-thumb.png"
+        },
+        {
+          "id": "leafylink-01",
+          "brand": "Burdick Auto Solutions",
+          "youtubeId": "ETV67JJ1aeg",
+          "description": "High-quality storefront advertising and local area showcase.",
+          "thumbnailUrl": "/assets/leafylink-thumb.png"
+        }
+      ]
+    },
+    {
+      "id": "affiliate-scaling",
+      "title": "Affiliate & Volume Scaling",
+      "videos": [
+        {
+          "id": "sephora-ulta-campaign",
+          "brand": "Ulta",
+          "description": "Native UGC ads driving affiliate traffic for $750 gift card campaigns.",
+          "tiktokUrl": "https://www.tiktok.com/@roxxxreturns/video/7543625881906842935",
+          "thumbnailUrl": "/assets/sephora-thumb.jpg"
+        },
+        {
+          "id": "tjmaxx-campaign",
+          "brand": "TJMaxx",
+          "description": "Bypassing ad-fatigue for $100 promotional offers across a 15-account network.",
+          "tiktokUrl": "https://www.tiktok.com/@allhailywants/video/7576900061481798943",
+          "thumbnailUrl": "/assets/tjmaxx-thumb.jpg"
+        },
+        {
+          "id": "sephora-ulta-campaign",
+          "brand": "Sephora",
+          "description": "Native UGC ads driving affiliate traffic for $750 gift card campaigns.",
+          "tiktokUrl": "https://www.tiktok.com/@lexibrooksmonk/video/7571388322908572941",
+          "thumbnailUrl": "/assets/tjmaxx-thumb.jpg"
+        }
+      ]
+    },
+    {
+      "id": "organic-growth",
+      "title": "Organic Audience Growth",
+      "videos": [
+        {
+          "id": "dremo-anime-1",
+          "brand": "DREMO",
+          "description": "Beat-synced, frame-by-frame precision editing. 40k+ organic views.",
+          "tiktokUrl": "https://www.tiktok.com/@d.r.e.m.o/video/7373948002676804869",
+          "thumbnailUrl": "/assets/dremo-thumb.jpg"
+        },
+        {
+          "id": "dremo-anime-1",
+          "brand": "DREMO",
+          "description": "Beat-synced, frame-by-frame precision editing. 150k+ organic views.",
+          "tiktokUrl": "https://www.tiktok.com/@d.r.e.m.o/video/7392545530125094145",
+          "thumbnailUrl": "/assets/dremo-thumb.jpg"
+        },
+        {
+          "id": "dremo-anime-1",
+          "brand": "DREMO",
+          "description": "Beat-synced, frame-by-frame precision editing. 300k+ organic views.",
+          "tiktokUrl": "https://www.tiktok.com/@d.r.e.m.o/video/7348405869312314629",
+          "thumbnailUrl": "/assets/dremo-thumb.jpg"
+        }
+      ]
+    }
+  ]
+}

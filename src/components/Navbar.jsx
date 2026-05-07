@@ -23,7 +23,7 @@ export default function Navbar() {
       </div>
 
       {/* Contact Button */}
-      <a href="mailto:antonioiggy13@gmail.com" style={{ textDecoration: 'none' }}>
+      <a href="#contact" style={{ textDecoration: 'none' }}>
         <button className="btn-primary">
           Contact Me
         </button>

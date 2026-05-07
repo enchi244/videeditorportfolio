@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer style={{
-      backgroundColor: '#1a1a1a', // Slightly darker than the main background for contrast
+    <footer id="contact" style={{ // Added id="contact" here
+      backgroundColor: '#1a1a1a', 
       padding: '4rem 5%',
       borderTop: '1px solid rgba(255, 255, 255, 0.05)',
       marginTop: '2rem'
@@ -17,10 +17,16 @@ export default function Footer() {
           <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Antonio Miguel Apostol</h3>
           <p style={{ marginBottom: '0.5rem' }}>Social Media Manager & Video Editor</p>
           <p style={{ marginBottom: '0.5rem' }}>Zamboanga City, Philippines</p>
-          <a href="mailto:antonioiggy13@gmail.com" style={{ color: 'var(--accent-orange)', textDecoration: 'none', display: 'block', marginTop: '1rem' }}>
+          
+          <a href="mailto:antonioiggy13@gmail.com" style={{ color: 'var(--accent-orange)', textDecoration: 'none', display: 'block', marginTop: '1.5rem' }}>
             antonioiggy13@gmail.com
           </a>
           <p style={{ marginTop: '0.5rem' }}>(+63) 915-800-1195</p>
+
+          {/* New OnlineJobs.ph Link */}
+          <a href="https://www.onlinejobs.ph/jobseekers/info/567304" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent-orange)', textDecoration: 'none', display: 'block', marginTop: '0.5rem', fontWeight: '500' }}>
+            OnlineJobs.ph Profile ↗
+          </a>
         </div>
 
         {/* Column 2: Creative & AI Stack */}

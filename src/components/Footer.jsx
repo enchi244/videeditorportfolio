@@ -1,66 +1,35 @@
-export default function Footer() {
+import Reveal from './Reveal';
+import ContactForm from './ContactForm';
+
+/**
+ * Combined "Get In Touch" CTA + closing footer bar. Kept as one <footer id="contact">
+ * so both the nav anchor and the scroll-spy counter have a single target.
+ */
+export default function Footer({ contact }) {
+  if (!contact) return null;
+
   return (
-    <footer id="contact" style={{ // Added id="contact" here
-      backgroundColor: '#1a1a1a', 
-      padding: '4rem 5%',
-      borderTop: '1px solid rgba(255, 255, 255, 0.05)',
-      marginTop: '2rem'
-    }}>
-      <div className="container" style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
-        gap: '3rem'
-      }}>
-        
-        {/* Column 1: Contact & Location */}
-        <div>
-          <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Antonio Miguel Apostol</h3>
-          <p style={{ marginBottom: '0.5rem' }}>Social Media Manager & Video Editor</p>
-          <p style={{ marginBottom: '0.5rem' }}>Zamboanga City, Philippines</p>
-          
-          <a href="mailto:antonioiggy13@gmail.com" style={{ color: 'var(--accent-orange)', textDecoration: 'none', display: 'block', marginTop: '1.5rem' }}>
-            antonioiggy13@gmail.com
-          </a>
-          <p style={{ marginTop: '0.5rem' }}>(+63) 915-800-1195</p>
+    <footer id="contact" className="contact-section">
+      <div className="contact-section-inner">
+        <Reveal>
+          {contact.eyebrow && (
+            <div className="section-eyebrow" style={{ justifyContent: 'center' }}>
+              {contact.eyebrow}
+            </div>
+          )}
+          <h2 className="section-title">{contact.title}</h2>
+          <p>{contact.description}</p>
 
-          {/* New OnlineJobs.ph Link */}
-          <a href="https://www.onlinejobs.ph/jobseekers/info/567304" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent-orange)', textDecoration: 'none', display: 'block', marginTop: '0.5rem', fontWeight: '500' }}>
-            OnlineJobs.ph Profile ↗
-          </a>
-        </div>
+          <ContactForm email={contact.email} />
 
-        {/* Column 2: Creative & AI Stack */}
-        <div>
-          <h4 style={{ color: 'var(--text-main)', marginBottom: '1rem', fontSize: '1.1rem' }}>Creative & AI Stack</h4>
-          <ul style={{ listStyleType: 'none', padding: 0, color: 'var(--text-muted)', lineHeight: '2' }}>
-            <li>CapCut Pro (Desktop)</li>
-            <li>ElevenLabs & HeyGen</li>
-            <li>Nano Banana Pro & Veo 3</li>
-            <li>Metricool / Social Pilot</li>
-          </ul>
-        </div>
-
-        {/* Column 3: Technical Foundation */}
-        <div>
-          <h4 style={{ color: 'var(--text-main)', marginBottom: '1rem', fontSize: '1.1rem' }}>Technical Foundation</h4>
-          <ul style={{ listStyleType: 'none', padding: 0, color: 'var(--text-muted)', lineHeight: '2' }}>
-            <li>React & Vite</li>
-            <li>HTML5, CSS3, JavaScript</li>
-            <li>PHP & Git Version Control</li>
-            <li>Notion & Workspace Management</li>
-          </ul>
-        </div>
-
+          <div className="contact-meta">
+            <p>{contact.location}</p>
+            {contact.phone && <p>{contact.phone}</p>}
+          </div>
+        </Reveal>
       </div>
-      
-      <div style={{ 
-        textAlign: 'center', 
-        marginTop: '4rem', 
-        paddingTop: '2rem', 
-        borderTop: '1px solid rgba(255, 255, 255, 0.05)',
-        fontSize: '0.85rem',
-        opacity: 0.6
-      }}>
+
+      <div className="footer-bottom">
         <p>&copy; {new Date().getFullYear()} Antonio Miguel Apostol. All rights reserved.</p>
       </div>
     </footer>

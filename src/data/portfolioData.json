@@ -1,84 +1,265 @@
 {
   "hero": {
-    "title": "Medical VSL",
-    "description": "High-converting Direct Response trial edit featuring ElevenLabs AI voiceover and hook-body-CTA structure.",
-    "videoUrl": "https://www.youtube.com/embed/iZ9ZhQL9w0E",
-    "thumbnailUrl": "/assets/hero-thumb.png"
+    "eyebrow": "Creative Strategist - Video Editor",
+    "name": "Antonio Miguel Apostol",
+    "description": "I turn raw footage into scroll-stopping, direct-response content - brand ads, podcast clips, UGC, and more, cut fast and built to convert.",
+    "reel": {
+      "id": "showreel",
+      "brand": "Full Showreel",
+      "youtubeId": "iZ9ZhQL9w0E",
+      "aspect": "16/9"
+    }
   },
-  "categories": [
+  "capabilities": [
+    "CapCut Pro",
+    "Premiere Pro",
+    "After Effects",
+    "ElevenLabs",
+    "HeyGen",
+    "Veo 3 & Nano Banana Pro",
+    "Metricool / Social Pilot"
+  ],
+  "about": {
+    "eyebrow": "About Me",
+    "title": "The Creative Strategist Behind the Cut",
+    "subtitle": "A little about how I think, and what I bring to every project.",
+    "heading": "I turn raw footage into results.",
+    "intro": "I'm Antonio, a creative strategist and video editor based in the Philippines. I partner with brands and creators to produce short-form content that doesn't just look good, it performs: higher watch-through, more shares, more conversions. From direct-response ad edits to organic TikTok growth, I bring a strategist's eye to every cut, not just technical polish.",
+    "specializationHeading": "what i bring:",
+    "specializations": [
+      {
+        "icon": "strategy",
+        "title": "Creative Strategy",
+        "text": "Every edit starts with a hook, a structure, and a goal. Not just a timeline of clips."
+      },
+      {
+        "icon": "editing",
+        "title": "Video Editing",
+        "text": "Fluent in CapCut, sharpening my craft in Premiere Pro and After Effects daily."
+      },
+      {
+        "icon": "speed",
+        "title": "Fast Turnaround",
+        "text": "Quick, reliable delivery so your content calendar never has to wait on me."
+      }
+    ],
+    "image": "/assets/antonio-sitting.jpeg"
+  },
+  "sections": [
     {
-      "id": "high-conversion",
-      "title": "High-Conversion Brand Ads",
-      "videos": [
+      "id": "brand-showcases",
+      "navLabel": "Brand Showcases",
+      "eyebrow": "Client Work",
+      "title": "Brand Showcases",
+      "subtitle": "Direct-response ads built to convert - fast-paced B-roll, dynamic zoom-ins, and a hook-first structure made for real clients.",
+      "layout": "featured",
+      "coverImage": "/assets/UG.png",
+      "items": [
+        {
+          "id": "Cald 1",
+          "brand": "Caldwell Exteriors",
+          "description": "Pomotional Video",
+          "tag": "Open Slot",
+          "variant": "youtube",
+          "youtubeId": "R0HuVWHEsmA",
+          "thumbnailUrl": "/assets/Cald.png"
+        },
         {
           "id": "ulora-01",
           "brand": "Ulora Health & Wellness",
-          "youtubeId": "-Vh48itO0Bs",
           "description": "Direct response utilizing fast-paced B-roll and dynamic zoom-ins.",
+          "tag": "Direct Response",
+          "variant": "youtube",
+          "youtubeId": "-Vh48itO0Bs",
           "thumbnailUrl": "/assets/ulora-thumb.png"
         },
         {
-          "id": "leafylink-01",
+          "id": "burdick-01",
           "brand": "Burdick Auto Solutions",
-          "youtubeId": "ETV67JJ1aeg",
           "description": "High-quality storefront advertising and local area showcase.",
+          "tag": "Local Business",
+          "variant": "youtube",
+          "youtubeId": "ETV67JJ1aeg",
           "thumbnailUrl": "/assets/leafylink-thumb.png"
+        },
+        {
+          "id": "MH",
+          "brand": "Motor Heroin TV",
+          "description": "Longform to Shortform creation.",
+          "tag": "Open Slot",
+          "variant": "youtube",
+          "youtubeId": "_8_ponVx9gk",
+          "thumbnailUrl": "/assets/MH.png"
+        },
+        {
+          "id": "UG",
+          "brand": "Ultimate Gainz",
+          "description": "a trial edit for UG",
+          "tag": "Open Slot",
+          "variant": "youtube",
+          "youtubeId": "NH0FtAxssNA",
+          "thumbnailUrl": "/assets/UG.png"
         }
       ]
     },
     {
-      "id": "affiliate-scaling",
-      "title": "Affiliate & Volume Scaling",
-      "videos": [
+      "id": "podcast-shorts",
+      "navLabel": "Podcast Shorts",
+      "eyebrow": "New Format",
+      "title": "Podcast Shorts",
+      "subtitle": "Punchy, clip-worthy moments cut from long-form podcast episodes and repackaged for social.",
+      "layout": "carousel",
+      "coverImage": "/assets/AMXC1.png",
+      "items": [
         {
-          "id": "sephora-ulta-campaign",
-          "brand": "Ulta",
-          "description": "Native UGC ads driving affiliate traffic for $750 gift card campaigns.",
-          "tiktokUrl": "https://www.tiktok.com/@roxxxreturns/video/7543625881906842935",
-          "thumbnailUrl": "/assets/sephora-thumb.jpg"
+          "id": "Pod1",
+          "brand": "Novus",
+          "description": "The credit score MYTH",
+          "variant": "youtube",
+          "youtubeId": "-mQWVTXMsYg",
+          "thumbnailUrl": "/assets/NovusPod1.png"
         },
         {
-          "id": "tjmaxx-campaign",
-          "brand": "TJMaxx",
-          "description": "Bypassing ad-fatigue for $100 promotional offers across a 15-account network.",
-          "tiktokUrl": "https://www.tiktok.com/@allhailywants/video/7576900061481798943",
-          "thumbnailUrl": "/assets/tjmaxx-thumb.jpg"
+          "id": "Pod2",
+          "brand": "AMXC",
+          "description": "The insurance and restoration business.",
+          "variant": "youtube",
+          "youtubeId": "EhDYRmUD4F8",
+          "thumbnailUrl": "/assets/AMXC1.png"
         },
         {
-          "id": "sephora-ulta-campaign2",
-          "brand": "Sephora",
-          "description": "Native UGC ads driving affiliate traffic for $750 gift card campaigns.",
-          "tiktokUrl": "https://www.tiktok.com/@lexibrooksmonk/video/7571388322908572941",
-          "thumbnailUrl": "/assets/tjmaxx-thumb.jpg"
+          "id": "Pod3",
+          "brand": "AMXC",
+          "description": "Tax liability and how it works",
+          "variant": "youtube",
+          "youtubeId": "HJnAdj7-35g",
+          "thumbnailUrl": "/assets/AMXC2.png"
         }
       ]
     },
     {
-      "id": "organic-growth",
-      "title": "Organic Audience Growth",
-      "videos": [
+      "id": "fast-paced-shorts",
+      "navLabel": "Short-Form",
+      "eyebrow": "Organic Growth",
+      "title": "Fast-Paced Short-Form",
+      "subtitle": "Beat-synced, frame-by-frame edits built for retention and organic reach.",
+      "layout": "carousel",
+      "items": [
         {
           "id": "dremo-anime-1",
           "brand": "DREMO",
           "description": "Beat-synced, frame-by-frame precision editing. 40k+ organic views.",
-          "tiktokUrl": "https://www.tiktok.com/@d.r.e.m.o/video/7373948002676804869",
-          "thumbnailUrl": "/assets/dremo-thumb.jpg"
+          "variant": "tiktok",
+          "tiktokUrl": "https://www.tiktok.com/@d.r.e.m.o/video/7373948002676804869"
         },
         {
           "id": "dremo-anime-2",
           "brand": "DREMO",
           "description": "Beat-synced, frame-by-frame precision editing. 150k+ organic views.",
-          "tiktokUrl": "https://www.tiktok.com/@d.r.e.m.o/video/7392545530125094145",
-          "thumbnailUrl": "/assets/dremo-thumb.jpg"
+          "variant": "tiktok",
+          "tiktokUrl": "https://www.tiktok.com/@d.r.e.m.o/video/7392545530125094145"
         },
         {
           "id": "dremo-anime-3",
           "brand": "DREMO",
           "description": "Beat-synced, frame-by-frame precision editing. 300k+ organic views.",
-          "tiktokUrl": "https://www.tiktok.com/@d.r.e.m.o/video/7348405869312314629",
-          "thumbnailUrl": "/assets/dremo-thumb.jpg"
+          "variant": "tiktok",
+          "tiktokUrl": "https://www.tiktok.com/@d.r.e.m.o/video/7348405869312314629"
+        }
+      ]
+    },
+    {
+      "id": "real-estate",
+      "navLabel": "Real Estate",
+      "eyebrow": "New Format",
+      "title": "Real Estate Content",
+      "subtitle": "Cinematic property walkthroughs and listing highlight reels built to sell space, not just show it.",
+      "layout": "grid",
+      "coverImage": "/assets/RE1.png",
+      "items": [
+        {
+          "id": "RE1",
+          "brand": "Outdoor/Indoor Showcase",
+          "description": "A highly engaging realestate video crafted for shortform content",
+          "variant": "youtube",
+          "youtubeId": "ZOZ5_21hEAE",
+          "thumbnailUrl": "/assets/RE1.png"
+        },
+        {
+          "id": "RE2",
+          "brand": "Indoor Showcase",
+          "description": "Showcasing my ability to speedramp and add smooth transitions without flashy FX.",
+          "variant": "youtube",
+          "youtubeId": "wN28kRApmm0",
+          "thumbnailUrl": "/assets/RE2.png"
+        }
+      ]
+    },
+    {
+      "id": "ugc-affiliate",
+      "navLabel": "UGC & Affiliate",
+      "eyebrow": "Affiliate & Volume Scaling",
+      "title": "UGC & Affiliate Content",
+      "subtitle": "Native-feeling UGC ads driving affiliate traffic and TikTok Shop conversions at scale.",
+      "layout": "grid",
+      "items": [
+        {
+          "id": "ulta-campaign",
+          "brand": "Ulta",
+          "description": "Native UGC ads driving affiliate traffic for $750 gift card campaigns.",
+          "variant": "tiktok",
+          "tiktokUrl": "https://www.tiktok.com/@roxxxreturns/video/7543625881906842935"
+        },
+        {
+          "id": "tjmaxx-campaign",
+          "brand": "TJMaxx",
+          "description": "Bypassing ad-fatigue for $100 promotional offers across a 15-account network.",
+          "variant": "tiktok",
+          "tiktokUrl": "https://www.tiktok.com/@allhailywants/video/7576900061481798943"
+        },
+        {
+          "id": "sephora-campaign",
+          "brand": "Sephora",
+          "description": "Native UGC ads driving affiliate traffic for $750 gift card campaigns.",
+          "variant": "tiktok",
+          "tiktokUrl": "https://www.tiktok.com/@lexibrooksmonk/video/7571388322908572941"
         }
       ]
     }
-  ]
+  ],
+  "whyChooseMe": {
+    "eyebrow": "Why Work With Me",
+    "title": "Why Choose Me",
+    "subtitle": "What working with me actually looks like, in four points.",
+    "items": [
+      {
+        "icon": "target",
+        "title": "Proven Outcomes",
+        "text": "From viral short-form clips to full episodes, my edits are proven to amplify your authority and turn passive viewers into engaged clients."
+      },
+      {
+        "icon": "bolt",
+        "title": "Fast Turnaround",
+        "text": "Quick, reliable delivery so your content stays timely and your posting schedule never slips."
+      },
+      {
+        "icon": "layers",
+        "title": "Full-Stack Toolkit",
+        "text": "Fluent across CapCut, Premiere Pro, After Effects, and AI tools like ElevenLabs and HeyGen."
+      },
+      {
+        "icon": "tag",
+        "title": "Premium Quality, Fair Pricing",
+        "text": "Agency-level output without the agency overhead - pricing that scales with the project, not padded fees."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get In Touch",
+    "title": "Let's Create Something",
+    "description": "Have a project in mind? Send me an email and let's talk about your next edit.",
+    "email": "antonioiggy13@gmail.com",
+    "phone": "(+63) 915-800-1195",
+    "location": "Zamboanga City, Philippines"
+  }
 }
